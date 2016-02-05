@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# changer les nom et chemins des sites selon le serveur
+# changer les noms et chemins des sites selon le serveur
 
 declare -a sites=('/srv/www/wp1/htdocs' '/srv/www/wp2/htdocs' )
 cd
