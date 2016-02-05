@@ -11,7 +11,6 @@ wp theme delete twentythirteen
 wp theme delete twentyfourteen
 wp theme install twentysixteen --activate
 
-
 #permaliens
 wp rewrite structure "/%postname%/" --hard
 wp rewrite flush --hard
@@ -62,8 +61,6 @@ wp scaffold child-theme "$CHILD" --parent_theme="$THEME" --activate
 
 cd wp-content/themes/"$CHILD"
 git init
-git config --global user.email "mantismamita@gmail.com"
-git config --global user.name "Kirsten Cassidy"
 git add .
 git commit -m "Initial commit"
 
